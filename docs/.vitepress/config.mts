@@ -59,7 +59,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/yukunliu110100001111' }
     ],
     outline: {
       label: '目录' // 改成你想显示的文案
