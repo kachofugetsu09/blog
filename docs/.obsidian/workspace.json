@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "北工大分布式系统"
             }
+          },
+          {
+            "id": "07eedfc6b571f6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/北工大分布式系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "北工大分布式系统"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,10 +198,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "2dff00644e4c4228",
+  "active": "07eedfc6b571f6c6",
   "lastOpenFiles": [
     "notes/Mobile Computing.md",
     "notes/北工大分布式系统.md",
-    "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md"
+    "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md",
+    "books/西方谐典.md"
   ]
 }
