@@ -1,4 +1,3 @@
-
 import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
@@ -24,7 +23,7 @@ function getSidebarItems(dir: string, basePath: string = '/notes'): SidebarItem[
         items.push({
           text: entry.name,
           collapsible: true,
-          collapsed: true, // ✅ 默认折叠
+          collapsed: true,
           items: children
         })
       }
@@ -42,12 +41,16 @@ function getSidebarItems(dir: string, basePath: string = '/notes'): SidebarItem[
   return items
 }
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Yishu's blog",
   description: "A personal blog",
+
+  // 👉 在这里开 markdown 配置
+  markdown: {
+    math: true
+  },
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Notes', link: '/notes/introduction' },
@@ -62,7 +65,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/yukunliu110100001111' }
     ],
     outline: {
-      label: '目录' // 改成你想显示的文案
+      label: '目录'
     }
   }
 })
