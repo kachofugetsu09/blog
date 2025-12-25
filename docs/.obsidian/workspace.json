@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1f9a2eacfee4611",
+        "id": "2df63797fa78dc36",
         "type": "tabs",
         "children": [
           {
-            "id": "b12065cf589a5f52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Mobile Computing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mobile Computing"
-            }
-          },
-          {
-            "id": "2dff00644e4c4228",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/北工大分布式系统.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "北工大分布式系统"
-            }
-          },
-          {
-            "id": "07eedfc6b571f6c6",
+            "id": "f583ba007c4defde",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "北工大分布式系统"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,6 +72,21 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "336d61b49caa32d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/北工大分布式系统.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "北工大分布式系统 的大纲"
             }
           }
         ]
@@ -166,21 +152,6 @@
             }
           },
           {
-            "id": "336d61b49caa32d2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Trade-offs in Data Systems Architecture 的大纲"
-            }
-          },
-          {
             "id": "a96fde54ccace0c3",
             "type": "leaf",
             "state": {
@@ -191,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -210,10 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07eedfc6b571f6c6",
+  "active": "f583ba007c4defde",
   "lastOpenFiles": [
-    "notes/Mobile Computing.md",
+    "public/image/分布式C-list.png",
     "notes/北工大分布式系统.md",
+    "Pasted image 20251225133912.png",
+    "image/分布式.md",
+    "image",
+    "public/image/分布式ACLs.png",
+    "public/image/分布式relicationSystem1.png",
+    "public/image/分布式访问控制矩阵.png",
+    "notes/Mobile Computing.md",
+    "notes/image.png",
+    "notes/访问控制矩阵.png",
     "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md",
     "books/西方谐典.md"
   ]
