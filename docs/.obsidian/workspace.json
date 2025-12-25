@@ -89,7 +89,8 @@
               "title": "北工大分布式系统 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f583ba007c4defde",
+  "active": "336d61b49caa32d2",
   "lastOpenFiles": [
     "public/image/分布式C-list.png",
     "notes/北工大分布式系统.md",
