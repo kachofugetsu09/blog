@@ -1,4 +1,4 @@
-# Methology
+# Methodology
 4 properties of Software:
 - Conformity
 - Invisibility
@@ -116,6 +116,13 @@ Performances:
 - Throughput
 - Balancing Computational Loads
 
+Failure Handling:
+- Detect
+- Mask
+- Tolerate
+- Recover
+- Redundancy
+
 QoS:
 - Reliability
 - Security
@@ -148,3 +155,82 @@ File System:
 - Protection
 
 File System Modules:
+- Directory
+- File
+- Access control
+- Block
+- Device
+
+File System Components:
+- File Servers
+- Clients
+- File Services
+
+Flat File System Components:
+- Flat File Service
+- Directory Services
+- Client Module
+
+Route Influence:
+- Destination
+- Bandwidth
+- Network Topology
+- Routing Table
+- Load Balancing
+- Network Congestion
+
+Reliable Multicast:
+- Integrity
+- Validity
+- Agreement
+
+GMS:
+- Member change Interface
+- Failure detection
+- Notifying membership changes
+- Group address expansion
+
+Requirements of Group view update:
+- Order
+- Integrity
+- Non-triviality
+
+Replication System Components:
+- Client
+- Front End
+- Replica Manager
+
+RS request:
+1. Request
+2. Coordination
+3. Execution
+4. Agreement
+5. Response
+
+Easy to be attack:
+- Resource Sharing
+- Exposed Interfaces
+- Insecure Networks
+- Known Algorithms
+
+Security Threats:
+- Leakage
+- Tampering
+- Vandalism
+
+Method of Attacks:
+- Eavesdropping
+- Masquerading
+- Message Tampering
+- Replay
+- Dos
+
+Uses of Cryptography:
+- Security and Integrity
+- Authentication
+- Digital Signatures
+
+Cryptography's Applications:
+- Digital Certificates
+- Access Control
+- Capabilities
