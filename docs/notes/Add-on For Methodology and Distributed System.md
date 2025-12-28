@@ -90,6 +90,12 @@ Dynamic Testing:
 	- Multiple-Condition
 - Black box testing
 
+Testing:
+- Unit Testing
+- Integration Testing
+- System Testing
+
+
 Maintenance:
 - Bug fixing
 - Modifying software
