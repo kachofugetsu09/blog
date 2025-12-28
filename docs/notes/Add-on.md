@@ -1,3 +1,4 @@
+# Methology
 4 properties of Software:
 - Conformity
 - Invisibility
@@ -93,3 +94,57 @@ Maintenance:
 - Bug fixing
 - Modifying software
 - Implementing requirements
+
+
+# DS
+
+DS's Main purpose: 
+- Transparency
+- Openness
+- Scalable
+
+Middleware features:
+- Remote method Invocation
+- communication between group of process
+- Event notification
+- partition/placement/retrieval of shared object
+- replication of shared object
+- Real-time Multimedia Transmission
+
+Performances: 
+- Responsiveness
+- Throughput
+- Balancing Computational Loads
+
+QoS:
+- Reliability
+- Security
+- Performance
+- Adaptability
+
+Clock Synchronization Algorithms:
+- Centralized:
+	- Cristian's
+	- Berkeley
+- Decentralized:
+	- Averaging 
+	- Multiple External Time Sources
+
+Mutual exclusion:
+- Centralized
+- Distributed
+- Token Ring
+
+Election:
+- Ring
+- Bully
+
+File System:
+- Organization 
+- Storage
+- Retrieval
+- Naming
+- Sharing
+- Protection
+
+File System Modules:
