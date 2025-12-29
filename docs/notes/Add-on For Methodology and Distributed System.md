@@ -193,6 +193,15 @@ Route Influence:
 - Load Balancing
 - Network Congestion
 
+Routing Overlay:
+- 
+
+
+DHT:
+- Decentralized
+- Scalability
+- Fault Tolerance
+
 Reliable Multicast:
 - Integrity
 - Validity
