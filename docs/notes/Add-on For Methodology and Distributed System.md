@@ -193,9 +193,6 @@ Route Influence:
 - Load Balancing
 - Network Congestion
 
-Routing Overlay:
-- 
-
 
 DHT:
 - Decentralized
