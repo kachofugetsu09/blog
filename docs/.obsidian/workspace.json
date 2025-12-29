@@ -11,10 +11,14 @@
             "id": "bd0df18c2e216cbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/Add-on For Methodology and Distributed System.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Add-on For Methodology and Distributed System"
             }
           }
         ]
@@ -89,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 435.5
   },
   "right": {
     "id": "0774f71a30e7e100",
@@ -177,10 +181,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d96a12a0975437df",
+  "active": "bd0df18c2e216cbe",
   "lastOpenFiles": [
-    "notes/Add-on For Methodology and Distributed System.md",
+    "about.md",
+    "index.md",
+    "books/index.md",
     "notes/北工大分布式系统.md",
+    "books/西方谐典.md",
+    "notes/Add-on For Methodology and Distributed System.md",
     "public/image/分布式C-list.png",
     "Pasted image 20251225133912.png",
     "image/分布式.md",
@@ -191,7 +199,6 @@
     "notes/Mobile Computing.md",
     "notes/image.png",
     "notes/访问控制矩阵.png",
-    "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md",
-    "books/西方谐典.md"
+    "notes/分布式系统/DDIA/Trade-offs in Data Systems Architecture.md"
   ]
 }
