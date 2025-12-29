@@ -117,6 +117,11 @@ Middleware features:
 - replication of shared object
 - Real-time Multimedia Transmission
 
+Transparency:
+- Access
+- Location
+- Replication
+
 Performances: 
 - Responsiveness
 - Throughput
