@@ -121,6 +121,9 @@ Transparency:
 - Access
 - Location
 - Replication
+- Migration
+- Scaling
+- Failure
 
 Performances: 
 - Responsiveness
