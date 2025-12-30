@@ -128,7 +128,7 @@ Transparency:
 - Access
 - Location
 - Replication
-- Migration
+- Mobility
 - Scaling
 - Failure
 
