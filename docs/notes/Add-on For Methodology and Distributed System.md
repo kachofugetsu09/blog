@@ -253,7 +253,7 @@ Method of Attacks:
 - Dos
 
 Uses of Cryptography:
-- Security and Integrity
+- Secrecy and Integrity
 - Authentication
 - Digital Signatures
 
