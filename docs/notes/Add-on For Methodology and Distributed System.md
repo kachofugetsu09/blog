@@ -109,6 +109,13 @@ DS's Main purpose:
 - Openness
 - Scalable
 
+DS's Main Challenges:
+- No Global Clock
+- Concurrency
+- Failure Handles
+- Scalability
+- Heterogeneity
+
 Middleware features:
 - Remote method Invocation
 - communication between group of process
