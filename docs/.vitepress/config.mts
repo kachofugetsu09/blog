@@ -43,7 +43,7 @@ function getSidebarItems(dir: string, basePath: string = '/notes'): SidebarItem[
 
 export default defineConfig({
   title: "Yishu's blog",
-  description: "A personal blog",
+  description: "Notes on systems, mobile computing, and books.",
 
   // 👉 在这里开 markdown 配置
   markdown: {
@@ -54,7 +54,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Notes', link: '/notes/introduction' },
-      { text: 'Books', link: '/books/index' }
+      { text: 'Books', link: '/books/index' },
+      { text: 'About', link: '/about' }
     ],
 
     sidebar: {

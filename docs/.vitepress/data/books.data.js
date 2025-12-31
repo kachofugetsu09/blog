@@ -12,7 +12,7 @@ export default createContentLoader('books/**/*.md', {
           title: frontmatter.title || book.url.replace(/^.*\//, '').replace(/\/$/, ''),
           author: frontmatter.author || 'Unknown',
           tag: frontmatter.tag || 'Unknown',
-          date: frontmatter.date || '',
+          date: formatDate(frontmatter.date),
           url: book.url,
         }
       })
@@ -24,3 +24,10 @@ export default createContentLoader('books/**/*.md', {
       })
   },
 })
+
+function formatDate(input) {
+  if (!input) return ''
+  if (input instanceof Date) return input.toISOString().slice(0, 10)
+  if (typeof input === 'string') return input.slice(0, 10)
+  return String(input).slice(0, 10)
+}
