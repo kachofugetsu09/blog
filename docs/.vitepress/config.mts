@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 type SidebarItem = {
   text: string
@@ -41,13 +42,29 @@ function getSidebarItems(dir: string, basePath: string = '/notes'): SidebarItem[
   return items
 }
 
+const baseUrl = 'https://blog-snowy-theta-58.vercel.app'
+const RSS: RSSOptions = {
+  title: "Yishu's blog",
+  description: 'Notes on systems, mobile computing, and books.',
+  baseUrl,
+  language: 'zh-CN',
+  ignoreHome: true,
+  filter: () => true
+}
+
 export default defineConfig({
   title: "Yishu's blog",
   description: "Notes on systems, mobile computing, and books.",
+  head: [
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.rss' }]
+  ],
 
   // 👉 在这里开 markdown 配置
   markdown: {
     math: true
+  },
+  vite: {
+    plugins: [RssPlugin(RSS)]
   },
 
   themeConfig: {
